@@ -4,7 +4,7 @@ export default function Places(props) {
     <img src={props.image} alt="" />  
     <div className="japan-info">
     <div className="first">
-      <img src="./public/marker.svg" className="marker" alt="" />
+      <img src="./marker.svg" className="marker" alt="" />
       <h2>{props.country}</h2>
       <a href={props.googleMapsLink}>View In Google maps</a>
     </div>
